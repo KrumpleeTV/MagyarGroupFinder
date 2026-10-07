@@ -32,7 +32,7 @@ a { color: var(--gold-light); }
   margin: 0 auto;
 }
 .banner {
-  width: min(840px, 100%);
+  width: min(1120px, 100%);
   margin: 0 auto;
   overflow: hidden;
   border: 1px solid rgba(255,214,124,.35);
@@ -42,15 +42,16 @@ a { color: var(--gold-light); }
 }
 .banner-crop {
   width: 100%;
-  aspect-ratio: 840 / 348;
+  aspect-ratio: 1949 / 807;
   overflow: hidden;
   background: #120a04;
 }
 .banner-crop img {
-  width: 840px;
-  max-width: 100%;
-  height: auto;
   display: block;
+  width: 100%;
+  height: auto;
+  max-width: 1949px;
+  image-rendering: auto;
 }
 .banner-subtitle {
   position: relative;
