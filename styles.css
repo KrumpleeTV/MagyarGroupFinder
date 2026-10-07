@@ -32,6 +32,8 @@ a { color: var(--gold-light); }
   margin: 0 auto;
 }
 .banner {
+  width: min(840px, 100%);
+  margin: 0 auto;
   overflow: hidden;
   border: 1px solid rgba(255,214,124,.35);
   border-radius: 18px;
@@ -45,7 +47,8 @@ a { color: var(--gold-light); }
   background: #120a04;
 }
 .banner-crop img {
-  width: 100%;
+  width: 840px;
+  max-width: 100%;
   height: auto;
   display: block;
 }
